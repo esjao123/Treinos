@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-class/element</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to bottom, white, blue, lightblue);
+            background-attachment: fixed;
+        }
+
+        div > p{
+            display: none;
+            background-color: white;
+            border: 1px bold black;
+            border-radius: 3px;
+        }  
+
+        div:hover > p{
+            display: block;
+            color: blueviolet;
+        }
+
+        div:hover{
+            color: rgb(255, 0, 212);
+        }
+
+        div:hover#yuno{
+            color: green;
+        }
+
+        div:hover#asta{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo Classes e elementos</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat in aut voluptate molestias doloremque praesentium, laboriosam itaque, quibusdam qui obcaecati nesciunt neque quis soluta totam eius et corporis minus quia!</p>
+    <div>
+        Julius Novachrono
+        <p>O vestuário de Julius consiste em uma camisa e calças de cor e desenhos semelhantes. A camisa branca tem uma gola alta com pele preta no final e intrincados desenhos dourados e de cor roxa na sua circunferência. A camisa também tem mangas compridas com punhos púrpura claros, que possuem pele preta semelhante e desenhos. Um par de ornamentos em forma de anel de ouro também estão decorando as partes superior e inferior de cada manga. As calças marrons de Julius são complementadas por um par de botas altas de cor semelhante, que também têm pele preta nas coleiras..</p>
+    </div>
+    <h2>Asta e Yuno</h2>
+    <p>asta e yuno sao irmaos nao de sangue mas de coraçao</p>
+    <div id="asta">
+        <h2>Asta</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sit magnam quaerat nisi beatae, perspiciatis aut, eveniet dolorum soluta animi enim veniam nihil nostrum deleniti voluptatibus velit dicta ducimus delectus.</p>
+    </div>
+    <div id="yuno">
+        <h2>Yuno</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque doloremque est, earum esse in deserunt aliquam quidem aspernatur totam deleniti id nesciunt suscipit officiis sit ut explicabo! Quod, velit tenetur.</p>
+    </div>
+</body>
+</html>

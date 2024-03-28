@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço da Tatuagem</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+
+        header > h1{
+            background-color: rgb(44, 42, 42);
+            color: white;
+            margin: unset;
+            padding: 5px;
+            width: 155px;
+            text-align: center;
+            border-radius: 15px 0px;
+            margin: auto;
+            margin-bottom: 45px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
+        }
+
+        section > p > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            background-color: rgb(44, 42, 42);
+            padding: 20px;
+            margin-right: 45px;
+        }
+
+        section > p > a#tatto{
+            margin-left: 260px;
+            border-radius: 0px 15px;
+        }
+
+        section > p > a#piercing{
+            border-radius: 0px 15px;
+        }
+
+        section > p > a#produtos{
+            border-radius: 0px 15px;
+        }
+
+        #tatto:hover{
+            text-decoration: underline;
+        }
+
+        #piercing:hover{
+            text-decoration: underline;
+        }
+
+        #produtos:hover{
+            text-decoration: underline;
+            
+        }
+
+        #div1, #div2, #div3{
+            display: inline-block;
+            text-align: center;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.521);
+            font-weight: bold;
+            font-size: 2em;
+            background-color: white;
+            padding: 5px;
+            margin-top: 45px;
+            margin-right: 10px;
+            margin-left: 35px;
+            width: 250px;
+            height: 250px;
+            border-radius: 15px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+        }
+
+        #camisa{
+            margin-top: -2px;
+        }
+
+        #produto{
+            margin-top: -2px;
+        }
+
+        #piercing{
+            margin-top: -2px;
+        }
+
+        footer{
+            background-color: black;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            padding: 2px;
+            margin-top: 45px;
+        }
+
+        footer > p{
+            margin: unset;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Espaço da Tatuagem</h1>
+        <section>
+            <p><a href="#" id="tatto">Tatuagens</a> <a href="#" id="piercing">Piercings</a> <a href="#" id="produtos">Produtos</a></p>
+        </section>
+    </header>
+    <main>
+        <div id="div1">Camisetas
+            <p id="camisa"><img src="imagens/camiseta.webp" alt="camiseta" width="200px"></p>
+        </div>
+        <div id="div2">Produtos
+            <p id="produto"><img src="imagens/camiseta.webp" alt="produto" width="200px"></p>
+        </div>
+        <div id="div3">Piercings
+            <p id="piercing"><img src="imagens/camiseta.webp" alt="piercing" width="200px"></p>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por João</p>
+    </footer>
+</body>
+</html>

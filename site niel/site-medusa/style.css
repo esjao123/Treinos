@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+body{
+    background-color: #01111D;
+    margin-top: 10%;
+}
+
+.menu{
+    max-width: 850px;
+    min-width: 320px;
+    height: 55px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border: 5px solid white;
+    background-color: black;
+    margin: auto;
+    box-shadow: 0px 0px 40px #033F67;
+}
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    margin: 20px;
+    top: 0;
+}
+
+nav a:hover{
+    color: aqua;
+    text-shadow: 3px 3px 3px aqua;
+    transition: 0.5s;
+}
+
+.botao{
+    margin-left: 32px;
+}
+
+.medusinha:before, .botao:before{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url('images/medusa.png');
+    background-size: cover;
+    margin-right: 5px;
+}
+
+.container{
+    background-color: black;
+    max-width: 900px;
+    height: 450px;
+    margin: auto;
+    margin-top: -6px;
+    border: 5px solid white;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    box-shadow: 0px 0px 40px #033F67;
+}
+
+.download{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.74);
+    color: #007BC9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.download:hover{
+    background-color: gray;
+    color: white;
+    transition: 0.5s;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px rgb(156, 156, 156);
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.final{
+    max-width: 850px;
+    min-width: 320px;
+    height: 55px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 5px solid white;
+    background-color: black;
+    margin: auto;
+    margin-top: -6px;
+    box-shadow: 0px 0px 40px #033F67;
+}
+
+.final p{
+    color: white;
+    padding-left: 280px;
+}

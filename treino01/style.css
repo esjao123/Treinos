@@ -1,0 +1,49 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: 'blackclover';
+    src: url('fonts/BlackCloverFont.otf') format('opentype'), url('fonts/BlackCloverFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    height: 100%;
+    font-family: 'blackclover', Arial, sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    text-align: center;
+    background-image: linear-gradient(190deg, rgb(255, 255, 255) 25%, rgb(51, 12, 12) 65%);
+    background-attachment: fixed;
+}
+
+h1{
+    color: rgba(0, 0, 255, 0.89);
+    text-shadow: 2px 2px 5px rgb(223, 200, 0);
+}
+
+h2{
+    text-shadow: 2px 2px 5px rgb(255, 0, 0);
+}
+
+h2#young{
+    color: rgba(0, 0, 255, 0.548);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+p{
+    margin: auto;
+    font-size: 32px;
+    width: 750px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(76, 0, 255);
+}
+
+p#imagem{
+    background-color: unset;
+    border-radius: unset;
+    box-shadow: unset;
+}

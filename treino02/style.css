@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Botanic;
+    src: url('fonts/Botanic.ttf') format('truetype');
+}
+
+body{
+    background-image: linear-gradient(55deg, orange 25%, yellow, white);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+p{
+    font-family: 'Botanic', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    font-style: normal;
+    color: chocolate;
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 5px rgba(255, 208, 0, 0.637);
+}
+
+p#gif{
+    background-color: unset;
+    margin: unset;
+    padding: unset;
+}
+
+h1{
+    font-family: 'Botanic', sans-serif;
+    font-size: 78px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+}

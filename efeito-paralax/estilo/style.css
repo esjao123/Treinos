@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-image: url(imagens/itachi-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+header{
+    background-image: linear-gradient(to bottom, black, rgb(97, 7, 7));
+}
+
+header > h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3em;
+    font-variant: small-caps;
+    color: orange;
+}
+
+header > p{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 2em;
+    color: goldenrod;
+}
+
+section > p{
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius: 10px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    width: 98vh;
+    margin: auto;
+    text-shadow: 2px 2px 2px red;
+}
+
+section > h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}

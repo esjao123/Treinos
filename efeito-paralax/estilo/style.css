@@ -32,12 +32,35 @@ header > p{
     color: goldenrod;
 }
 
+main{
+    margin-top: 25px;
+}
+
+#img001{
+    background-image: url(imagens/meio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.5);
+    height: 200px;
+    width: 900px;
+    margin: auto;
+    margin-top: 15px;
+    color: black;
+    font-size: 1.5em;
+    padding-left: 5px;
+    padding-top: 100px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
 section > p{
     background-color: rgba(0, 0, 0, 0.623);
     border-radius: 10px;
     padding: 5px;
     color: rgb(255, 255, 255);
-    width: 98vh;
+    max-width: 98vh;
     margin: auto;
     text-shadow: 2px 2px 2px red;
 }
@@ -46,4 +69,24 @@ section > h2{
     text-align: center;
     color: rgb(255, 255, 255);
     text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
+footer{
+    background-color: black;
+    padding: 5px;
+    margin-top: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: red;
+    transition: 1s;
 }

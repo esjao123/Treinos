@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe em pratica</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(conteudos/estilo/imagens/itachi-background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+
+        iframe{
+            width: 94vw;
+            height: 500px;
+            border: 1px solid black;
+            background-color: white;
+            display: block;
+            margin: auto;
+        }
+
+        ul > li > a{
+            color: white;
+            text-decoration: none;
+        }
+
+        h1{
+            color: white;
+            text-shadow: 2px 2px black;
+        }
+
+        p{
+            color: white;
+            text-shadow: 2px 2px rgb(221, 11, 11);
+            background-color: rgba(0, 0, 0, 0.452);
+            border-radius: 3px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Botando o iframe em pratica</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nemo, aliquam fugit ducimus officia corrupti ab facilis non esse vero quis dolor veritatis nulla exercitationem commodi molestias voluptatibus corporis animi?Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloribus accusamus nemo sint amet odio, magnam quaerat impedit unde iure. Ab praesentium inventore voluptatem. Voluptatum eaque sapiente exercitationem neque officiis?</p>
+
+    <ul>
+        <li><a href="conteudos/index.html" target="frame">Primeira página</a></li>
+        <li><a href="conteudos/index2.html" target="frame">Segunda Página</a></li>
+        <li><a href="conteudos/index3.html" target="frame">Terceira Página</a></li>
+    </ul>
+
+    <iframe frameborder="0" name="frame" srcdoc="<h1>Escolha uma das opçoes acima</h1>">
+        <p>Seu navegador não suporta iframe!</p>
+    </iframe>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, ipsam? Minus consectetur ab eos, temporibus facere quidem, dolorum ratione unde quisquam hic, iste accusantium natus porro ex quod tempore eligendi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, ratione. Fugit expedita rerum a quae perferendis mollitia rem iure recusandae atque omnis? Repellendus laudantium expedita, voluptatibus nemo amet ea illo.</p>
+
+</body>
+</html>
